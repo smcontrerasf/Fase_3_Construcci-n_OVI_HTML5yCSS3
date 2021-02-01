@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<meta charset="utf-8">
+	<link rel="icon"  href="img/icono.PNG">
+	<link rel = "preconnect" href = "https://fonts.gstatic.com">
+	<link href = "https://fonts.googleapis.com/css2? family = Shadows + Into + Light & display = swap" rel = "hoja de estilo">
+
+	<style type="text/css">
+		
+	body{
+		position: relative;
+		margin:20px auto;
+		width: 1000px;
+		height: 120px;
+		background: #ffffff6b;
+		font-family: 'Shadows Into Light', cursive;
+		text-align: center;
+		}
+
+	body{
+	background: #033663;
+	}
+
+	</style>
+</head>
+<body>
+
+<center>
+			<h2>Formulario</h2>
+			<form>
+				<label for="texto">Ingrese su Nombre:</label>
+				<input id="texto" type="text" placeholder="Nombre completo" value="" required="" >
+
+				<br>
+				<br>
+
+				<label for="correo">Ingrese el Correo:</label>
+				<input id="correo" type="email" placeholder="Entrada de correo" value="" required="" >
+
+				<br>
+				<br>
+
+				<label for="pass">Contraseña de aula virtual:</label>
+				<input id="pass" type="password" placeholder="Contraseña" value="" required="" >
+
+				<br>
+				<br>
+
+				<label for="num">Numero de Semestre:</label>
+				<input id="num" type="number" value="" min="1" max="10">
+
+				<br>
+				<br>
+
+				<label>Escoja una opción:</label>
+				<select>
+					<option>Estudiante</option>
+					<option>Tutor</option>
+					<option>Externo</option>
+				</select>
+				
+				<br>
+				<br>
+
+				<label>Cuenta con:</label>
+				<input type="checkbox" id="computador"><label for="computador">Computador</label>
+				<input type="checkbox" id="internet"><label for="internet">Internet</label>
+				<input type="checkbox" id="basica"><label for="basica">Conocimientos Básicos</label>
+
+				<br>
+				<br>
+
+				<label>Es estudiante de la UNAD:</label>
+				<input type="radio" id="si" name="radio" checked=""><label for="si">Si</label>	
+				<input type="radio" id="no" name="radio"><label for="no">No</label>
+
+				<br>
+				<br>
+
+				<input type="submit" value="Enviar Formulario">		
+			</form>
+
+		</center>
+</body>
+
+</html>
